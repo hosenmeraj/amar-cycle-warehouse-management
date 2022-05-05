@@ -13,7 +13,7 @@ const Register = () => {
         user,
         loading,
         hookError,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerificatio: true });
     const [userInfo, setUserInfo] = useState({
         email: "",
         password: "",

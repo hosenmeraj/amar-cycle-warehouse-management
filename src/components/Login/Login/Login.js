@@ -4,6 +4,7 @@ import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
     const [userInfo, setUserInfo] = useState({
@@ -76,6 +77,7 @@ const Login = () => {
             }
         }
     }, [hookError])
+
     return (
         <div className='w-25 mx-auto py-4'>
             <h1>Login</h1>
@@ -92,8 +94,9 @@ const Login = () => {
                     Login
                 </Button>
                 <p>Do you have any account? <Link to='/register' className='text-decoration-none'>Register</Link> </p>
-                <p>Forgot Your Password? <button className='btn btn-link text-decoration-none text-primary'>Reset Password</button></p>
+                <p>Forgot Your Password? <button className='btn btn-link text-decoration-none text-primary' onClick={handleReset}>Reset Password</button></p>
             </Form>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
