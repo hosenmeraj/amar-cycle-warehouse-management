@@ -9,6 +9,8 @@ import NotFound from './components/Shared/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
 import Login from './components/Login/Login/Login';
 import Register from './components/Login/Register/Register';
+import { ToastContainer } from 'react-bootstrap';
+import Inventory from './components/Pages/Inventory/Inventory';
 
 function App() {
   return (
@@ -17,12 +19,14 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/inventory' element={<Inventory></Inventory>}></Route>
         <Route path='/items' element={<Items></Items>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       {/* <Footer></Footer> */}
+      <ToastContainer></ToastContainer>
     </div>
   );
 }
