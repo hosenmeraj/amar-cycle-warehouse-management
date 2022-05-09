@@ -1,74 +1,110 @@
 [
     {
         "_id": 1,
-        "title": "accusamus beatae ad facilis cum similique qui sunt",
-        "url": "https://via.placeholder.com/600/92c952",
-        "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+        "name": "Muscular Blue 24 Inch",
+        "price": "300",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/bvY8qCx/847503.png"
     },
     {
         "_id": 2,
-        "title": "reprehenderit est deserunt velit ipsam",
-        "url": "https://via.placeholder.com/600/771796",
-        "thumbnailUrl": "https://via.placeholder.com/150/771796"
+        "name": "scooty",
+        "price": "100",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/Gs580Cb/804438.jpg"
     },
     {
         "_id": 3,
-        "title": "officia porro iure quia iusto qui ipsa ut modi",
-        "url": "https://via.placeholder.com/600/24f355",
-        "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+        "name": "Allan Hunter 26",
+        "price": "150",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/L04Fn2k/804494.jpg"
     },
     {
         "_id": 4,
-        "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
-        "url": "https://via.placeholder.com/600/d32776",
-        "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+        "name": "Classic Bicycle 28",
+        "price": "180",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/ByJMvmF/85480.jpg"
     },
     {
         "_id": 5,
-        "title": "natus nisi omnis corporis facere molestiae rerum in",
-        "url": "https://via.placeholder.com/600/f66b97",
-        "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+        "name": "Durjoy Double bar 26",
+        "price": "100",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/55zd5f2/804414.jpg"
     },
     {
         "_id": 6,
-        "title": "accusamus ea aliquid et amet sequi nemo",
-        "url": "https://via.placeholder.com/600/56a8c2",
-        "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+        "name": "Durjoy Single bar 26",
+        "price": "300",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/TL42qsX/847468.png"
     },
     {
         "_id": 7,
-        "title": "officia delectus consequatur vero aut veniam explicabo molestias",
-        "url": "https://via.placeholder.com/600/b0f7cc",
-        "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+        "name": "Steel 1-Spd Ryan 14 Black",
+        "price": "300",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/zQFvrrt/847192.jpg"
     },
     {
         "_id": 8,
-        "title": "aut porro officiis laborum odit ea laudantium corporis",
-        "url": "https://via.placeholder.com/600/54176f",
-        "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+        "name": "Steel 1-Spd Premier-M-14.01-Orange",
+        "price": "100",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/VV7R7mq/85487.jpg"
     },
     {
         "_id": 9,
-        "title": "qui eius qui autem sed",
-        "url": "https://via.placeholder.com/600/51aa97",
-        "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+        "name": "Steel 1-Spd Ryan 12 Black",
+        "price": "150",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/zQFvrrt/847192.jpg"
     },
     {
         "_id": 10,
-        "title": "beatae et provident et ut vel",
-        "url": "https://via.placeholder.com/600/810b14",
-        "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+        "name": "Muscular Red 24 Inch",
+        "price": "180",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/rF7S5q0/804426.jpg"
     },
     {
         "_id": 11,
-        "title": "nihil at amet non hic quia qui",
-        "url": "https://via.placeholder.com/600/1ee8a4",
-        "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
+        "name": "Muscular Blue 24 Inch",
+        "price": "100",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/VxZCN6g/804254.jpg"
     },
     {
         "_id": 12,
-        "title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
-        "url": "https://via.placeholder.com/600/66b7d2",
-        "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
+        "name": "Scorpion Plus Green 24 Inch",
+        "price": "300",
+        "quantity": "0",
+        "supplier": "Abul Hossain",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/zGXbd7w/804091.jpg"
     }
 ]

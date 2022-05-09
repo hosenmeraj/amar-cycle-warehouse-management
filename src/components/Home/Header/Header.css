@@ -1,0 +1,9 @@
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: green;
+    text-transform: uppercase;
+}

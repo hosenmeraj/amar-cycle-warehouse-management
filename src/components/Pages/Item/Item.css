@@ -1,0 +1,8 @@
+.item {
+    border: 1px solid green;
+    max-height: 90%;
+}
+
+.item img {
+    width: 100%;
+}

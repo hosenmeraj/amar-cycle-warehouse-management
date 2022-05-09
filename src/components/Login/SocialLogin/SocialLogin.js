@@ -2,9 +2,12 @@ import React from 'react';
 import auth from '../../../firebase.init';
 import google from "../../../images/google.png"
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const navigate = useNavigate()
+    const location = useLocation()
     let errorElement
     if (error) {
         errorElement = <p className='error-message'>Error: {error?.message}</p>
@@ -12,12 +15,10 @@ const SocialLogin = () => {
     if (loading) {
         return <p>Loading...</p>;
     }
+
+    let from = location.state?.from?.pathname || "/";
     if (user) {
-        return (
-            <div>
-                <p>Signed In User: {user.email}</p>
-            </div>
-        );
+        navigate(from, { replace: true });
     }
 
     return (

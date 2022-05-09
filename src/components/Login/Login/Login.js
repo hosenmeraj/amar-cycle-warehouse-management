@@ -60,7 +60,7 @@ const Login = () => {
     const from = location.state?.from?.pathname || "/";
     useEffect(() => {
         if (user) {
-            navigate(from)
+            navigate(from, { replace: true });
         }
     }, [user])
     useEffect(() => {
